@@ -1,0 +1,23 @@
+.weather {
+  display: flex;
+  align-items: center;
+}
+.weather__icon__img {
+  width: 6.5vw;
+}
+.weather__description {
+  font-size: 1.1vw;
+}
+.weather__description div {
+  margin-bottom: 0.4vw;
+}
+.weather__description div:last-child{
+  margin-bottom: 0;
+}
+.weather__location {
+  font-weight: 700;
+  font-size: 1.4vw;
+}
+.weather__temp {
+  font-size: 0.9vw;
+}

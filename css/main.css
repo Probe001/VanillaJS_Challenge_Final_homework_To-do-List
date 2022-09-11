@@ -1,0 +1,24 @@
+@import './variable.css';
+
+@import '/css/time.css';
+@import '/css/weather.css';
+@import '/css/login.css';
+@import '/css/todo.css';
+@import '/css/todoitem.css';
+
+@import '/css/header.css';
+@import '/css/contents.css';
+
+
+body {
+  height: 100vh;
+  background-size: cover;
+  color: white;
+}
+.hidden {
+  display: none;
+}
+.checked {
+  text-decoration: line-through;
+  color: var(--light-gray);
+}

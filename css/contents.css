@@ -1,0 +1,12 @@
+.contents {
+  width: 70vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.login {
+  width: 50vw;
+}
+.todo-list {
+  width: 50vw;
+}

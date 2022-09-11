@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Momentum - JS Challenge Final Homework</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <script defer src="https://kit.fontawesome.com/b7648ca7bd.js" crossorigin="anonymous"></script>
+  <script defer src="/js/time.js"></script>
+  <script defer src="/js/weather.js"></script>
+  <script defer src="/js/greeting.js"></script>
+  <script defer src="/js/todo.js"></script>
+  <script defer src="/js/background.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div class="header__column">
+      <div class="time__date">
+        01 mon JAN
+      </div>
+      <div class="time">
+        00:00:00
+      </div>
+
+    </div>
+    <div class="header__column">
+      <a href="/">To Do List</a>
+    </div>
+    <div class="header__column">
+      <div class="weather">
+        <div class="weather__icon">
+        </div>
+        <div class="weather__description">
+          <div class="weather__location">
+            Iksan
+          </div>
+          <div class="weather__weather">
+            Cloudy
+          </div>
+          <div class="weather__temp">
+            00.00℃
+          </div>
+        </div>
+
+      </div>
+    </div>    
+  </div>
+
+
+  <div class="contents">
+    <div class="login">
+      <span>What's your name?</span>
+      <form class="login__form">
+        <input required class="login__input"/>
+        <button type="submit" class="login__submit-btn">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </form>
+    </div>
+    <div class="todo-list hidden">
+      <span class="username"></span>
+      <form class="todo-list__submit-form">
+        <input required placeholder="Please input to-do item" class="todo-list__submit-input" />
+        <button type="submit" class="todo-list__submit-btn">
+          <i class="fa-solid fa-arrow-right"></i> 
+        </button>
+      </form>
+      <ul class="todo-list__list">
+      </ul>      
+    </div>
+    
+  </div>
+</body>
+</html>

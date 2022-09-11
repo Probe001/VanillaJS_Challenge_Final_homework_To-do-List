@@ -1,0 +1,33 @@
+.todo-list__list {
+  height: 40vh;
+  overflow-y: scroll;
+}
+.todo-list__list::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+.todo-list__list::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.todo-list__item {
+  background: var(--light-gray);
+  display: flex;
+  padding: 1vw;
+  font-size: 1.125vw;
+  margin-bottom: 0.5vw;
+}
+.todo-list__item__contents {
+  flex: 1;
+  cursor: pointer;
+}
+.todo-list__item__contents i {
+  margin-right: 1vw;
+}
+
+.todo-remove {
+  cursor: pointer;
+  display: flex;
+}
+.todo-remove:hover {
+  color: tomato;
+}

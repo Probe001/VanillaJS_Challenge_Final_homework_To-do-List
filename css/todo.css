@@ -1,0 +1,46 @@
+.username {
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw 0;
+}
+
+.todo-list__submit-form {
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.15vw solid white;
+  margin-bottom: 2vw;
+  padding: 0.5vw;
+}
+
+.todo-list__submit-input {
+  font-size: 2vw;
+  background: transparent;
+  color: white;
+  border: none;
+  flex: 1;
+}
+.todo-list__submit-input::placeholder {
+  font-size: 2vw;
+  color: rgba(255,255,255,0.7);
+}
+.todo-list__submit-input:focus {
+  outline: none;
+}
+
+.todo-list__submit-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5vw;
+  border: 0.15vw solid white;
+  background: transparent;
+  color: white;
+  border-radius: 30%;
+}
+.todo-list__submit-btn:hover {
+  color: black;
+  background: white;
+}

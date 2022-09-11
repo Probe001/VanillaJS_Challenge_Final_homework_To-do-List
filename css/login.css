@@ -1,0 +1,40 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login span {
+  font-size: 4.5vw;
+  margin: 7vw 0;
+}
+.login__form {
+  display: flex;
+  border-bottom: 0.3vw solid white;
+  padding: 0.5vw;
+}
+.login__input {
+  font-size: 3.5vw;
+  color: white;
+  background: transparent;
+  border: none;
+  flex: 1;
+}
+.login__input:focus {
+  outline: none;
+}
+.login__submit-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4vw;
+  font-size: 2vw;
+  color: white;
+  background-color: transparent;
+  border: 0.3vw solid white;
+  border-radius: 30%;
+}
+.login__submit-btn:hover {
+  color: black;
+  background: white;
+}
