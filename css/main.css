@@ -1,13 +1,13 @@
 @import './variable.css';
 
-@import '/css/time.css';
-@import '/css/weather.css';
-@import '/css/login.css';
-@import '/css/todo.css';
-@import '/css/todoitem.css';
+@import './time.css';
+@import './weather.css';
+@import './login.css';
+@import './todo.css';
+@import './todoitem.css';
 
-@import '/css/header.css';
-@import '/css/contents.css';
+@import './header.css';
+@import './contents.css';
 
 
 body {
