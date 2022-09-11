@@ -18,10 +18,6 @@
   justify-content: center;
   font-size: 4vw;
 }
-.header__column:nth-child(2) a{
-  text-decoration: none;
-  color: white;
-}
 .header__column:last-child{
   justify-content: flex-end;
 }
